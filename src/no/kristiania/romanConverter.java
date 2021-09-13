@@ -2,6 +2,7 @@ package no.kristiania;
 
 public class romanConverter {
 
+
     public static String toRoman(int i){
         String output = "";
         if(i == 1) {
@@ -12,5 +13,4 @@ public class romanConverter {
         }
         return output;
     }
-
 }
